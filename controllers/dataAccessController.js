@@ -9,7 +9,7 @@ get_users = async () =>{
     try {
       await client.connect();
   
-      result = await findAllObjects(client,{
+      result = await findAll(client,{
         db: 'TerritoryDB',
         collection: 'users',
       })
@@ -87,11 +87,6 @@ upload_data = async (req,res) => {
     console.log(`${result.modifiedCount} were updated`)
   }
 
-  //modified vertion of the other findAll, I sould replace the old one but im too lazy
-  async function findAllObjects(client,target){
-    const result = await client.db(target.db).collection(target.collection).find({}).toArray();
-    return result;
-  }
   
   module.exports = {
     upload_data: upload_data,

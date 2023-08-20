@@ -24,6 +24,7 @@ app.use(logger)
 app.use('/sendmail',require("./routes/emailSender"))
 // API Routes
 app.use('/territories',require('./routes/api/territories'))
+app.use('/users',require('./routes/api/users'))
 
 
 app.listen(PORT, () => console.log(`listening at port: ${PORT}`))

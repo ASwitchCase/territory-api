@@ -46,3 +46,16 @@
 20230819	20:55:56	0eac83a8-77ca-4704-a6f0-88c4a0408531	user: znweke POST	http://localhost:4200	/sendmail
 20230819	20:56:15	bcd70dbb-e06a-4751-aad1-68491f73b233	user: znweke POST	http://localhost:4200	/territories
 20230819	22:38:09	139c393f-cfb4-458c-9d31-97527ddacbfd	user: znweke POST	undefined	/sendmail
+20230820	07:10:24	35a987a9-8830-4ab4-9c19-0622dd5535c8	user: znweke GET	undefined	/users
+20230820	07:11:49	3c713b71-f821-4931-bec8-5194343ce007	user: znweke GET	undefined	/users
+20230820	07:12:55	caae8b3c-d15e-47e6-bfcb-59269fe1a78e	user: znweke GET	undefined	/users
+20230820	07:14:43	8fbfb44b-47cf-4ce7-94a7-6e4aa8b807a0	user: znweke GET	undefined	/users
+20230820	07:15:16	f516191b-1c10-4f37-a47c-2f7358ee9c59	user: znweke GET	undefined	/users
+20230820	07:16:26	1321fe3d-9ed9-4e58-a102-a12052c3a8a7	user: znweke GET	undefined	/users
+20230820	07:19:52	22cb647b-812a-4026-85dd-8acc3a437869	user: znweke GET	undefined	/users
+20230820	07:22:03	b9bc4ea9-9211-4b9f-bef2-aa3b99f28bbb	user: znweke GET	undefined	/users
+20230820	07:23:18	e8ae56b6-dc21-4753-a2c1-b8d4ab9bd609	user: znweke GET	undefined	/users
+20230820	07:24:43	7f745a80-7c50-4bdf-9eeb-cc0a9ce5b3ea	user: znweke GET	undefined	/users
+20230820	07:26:36	7ac06bc2-5d23-43db-96d8-be121647f775	user: znweke GET	undefined	/users
+20230820	07:30:44	269562b3-7376-4f6a-9d82-10167b379a42	user: znweke GET	undefined	/users
+20230820	07:32:00	e196e93e-6090-462b-998c-13b8e94cf5fc	user: znweke GET	undefined	/users

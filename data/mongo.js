@@ -7,8 +7,8 @@ export class Mongo {
     }
 
     async get_all() {
-        return this.mongo.exec(async (collection) => 
-            collection
+        return this.mongo.exec(async (c) => 
+            c
                 .find({},{projection:{ _id: 0 }})
                 .toArray());
     }

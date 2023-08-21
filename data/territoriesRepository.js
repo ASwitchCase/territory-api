@@ -1,7 +1,6 @@
 export class TerritoriesRepository {
     constructor(mongo) {
         this.mongo = mongo;
-        this.mongo.configure('TerritoryDB', 'territories');
     }
 
     async all() {

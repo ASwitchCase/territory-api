@@ -15,7 +15,7 @@ import Mongo from '../../data/mongo';
 const users = new UsersController(
     new UsersRepository(
         new Mongo(
-            new MongoClient(process.env.URI))));
+            new MongoClient(process.env.URI), 'users')));
 
 // TODO split up base routes to more logic groupings... this should be under /users
 // GET /users would return all users. Rather than returning an array, you'd want to return an object https://cheatsheetseries.owasp.org/cheatsheets/AJAX_Security_Cheat_Sheet.html

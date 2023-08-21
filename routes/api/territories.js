@@ -14,7 +14,7 @@ import Mongo from '../../data/mongo';
 const users = new UsersController(
     new UsersRepository(
         new Mongo(
-            new MongoClient(process.env.URI))));
+            new MongoClient(process.env.URI), 'territories')));
 
 // I'd expect several routes here in a final API:
 // GET /territories returns all territories. Rather than returning an array, you'd want to return an object https://cheatsheetseries.owasp.org/cheatsheets/AJAX_Security_Cheat_Sheet.html

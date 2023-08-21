@@ -19,13 +19,13 @@ export class Mongo {
         
         try {
             await client.connect();
-            var collection = client.db(target.db).collection(target.collection);
+            var collection = client.db(this.db).collection(this.collection);
             await action(collection);
         } catch (e){
             // todo, replace with a logger
             console.error(e);
-          } finally {
+        } finally {
             await client.close();
-          }
+        }
     }
 }

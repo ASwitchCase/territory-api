@@ -22,7 +22,7 @@ const users = new UsersController(
 //      Consider: { data: [{},{}...], count:100....} 
 //          an added advantage of ^ is that you can expand metadata easily to add more details, such as if you start paging
 router.route('/')
-    .get(async(req,res) =>{
+    .get(async(req,res) =>{        
         let data = await users.get_users()
         res.send({users:data})
     })

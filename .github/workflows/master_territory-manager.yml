@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'territory-manager'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C40D1561F6AD4F6890CE6FAAA8019F93 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A793F414A4AC423C8C8C8EF1ADF6F3D9 }}
           package: .

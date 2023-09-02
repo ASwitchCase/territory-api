@@ -59,3 +59,6 @@
 20230820	07:26:36	7ac06bc2-5d23-43db-96d8-be121647f775	user: znweke GET	undefined	/users
 20230820	07:30:44	269562b3-7376-4f6a-9d82-10167b379a42	user: znweke GET	undefined	/users
 20230820	07:32:00	e196e93e-6090-462b-998c-13b8e94cf5fc	user: znweke GET	undefined	/users
+20230824	16:02:51	7774f3dd-c3bc-41d2-b63a-f849dd7de9eb	user: znweke GET	undefined	/users
+20230824	16:03:07	658324a9-5956-41b1-b284-8fd556420590	user: znweke GET	undefined	/territories
+20230824	16:03:15	0e084f82-a93e-4b4c-a72b-af96aa2eb647	user: znweke POST	undefined	/territories

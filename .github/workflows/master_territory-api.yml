@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'territory-api'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DB0D4910D06541BC9BEBE8B168D52B44 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D4E3C2886CE940AEAC848FC24433C644 }}
           package: .
